@@ -1,4 +1,7 @@
 const no = 12;
+const name = 'secrent name'
+const real_name = 'abhay singh'
+
 
 if (no > 10) {
     console.log('large number');
