@@ -1,16 +1,12 @@
-const { log } = require('console');
-const os = require('os');
+const path = require('path');
 
-const user = os.userInfo();
-console.log(user);
+console.log(path.sep);
 
-console.log('the system uptime is ' + os.uptime() + ' seconds');
 
-const osInfo = {
-    name: os.type(),
-    release: os.release(),
-    total_Memory: os.totalmem(),
-    free_Memory: os.freemem(),
-}
+const filePath = path.join('./f1', 'f2', 'file1.txt');
 
-console.log(osInfo);
+console.log(filePath);
+
+const absolute_path = path.resolve(__dirname, 'f1', 'f2', 'file1.txt');
+
+console.log(absolute_path);
