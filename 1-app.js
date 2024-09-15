@@ -15,9 +15,17 @@ console.log(`hey this is my first node app`);
 console.log('hey nigga');
 
 newf();
+
+
 // some important global variables:
 //__dirname
 //__filename
 //require - function to use modules
 //module - info about current modules
 //process - info about the enviorment where the program is being executed
+
+// some Built-in modules
+// http
+// path
+// fs
+// os
