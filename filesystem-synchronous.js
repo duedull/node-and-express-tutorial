@@ -2,8 +2,6 @@
 
 
 const { readFileSync, writeFileSync, } = require('fs');
-
-
 //to read an already existing file
 const first = readFileSync('./f1/first.txt', 'utf8');
 const second = readFileSync('./f1/second.txt', 'utf8');
