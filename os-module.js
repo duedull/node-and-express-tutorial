@@ -11,6 +11,7 @@ const osInfo = {
     release: os.release(),
     total_Memory: os.totalmem(),
     free_Memory: os.freemem(),
+    Cores: os.cpus().length
 }
 
 console.log(osInfo);
