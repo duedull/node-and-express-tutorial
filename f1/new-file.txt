@@ -1,0 +1,1 @@
+this is the new file made with the contents of first.txt and second.txt: this is the first.txt  this is the second.txt
