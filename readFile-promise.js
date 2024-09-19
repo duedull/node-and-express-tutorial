@@ -21,13 +21,15 @@ const { readFile } = require('fs');
 
 //DOING THE SAME WITH ASYNC-AWAIT
 
-async function getting_promise(path) {
-    try {
-        const first = await getText(path);
-        console.log(first);
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function getting_promise(path) {
+//     try {
+//         const first = await getText(path);
+//         console.log(first);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-getting_promise('../f1/first.txt');
+// getting_promise('../f1/first.txt');
+
+
