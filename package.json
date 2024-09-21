@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "1-app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon practise_everything"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
   }
 }
